@@ -1,0 +1,108 @@
+body{
+	width: 100%
+	max-width:960px;
+}
+
+h1 { 
+
+font-family: helvetica bold; 
+font-size: 200px 
+
+}
+
+@-webkit-keyframes ana {
+	
+	40%{
+	background-color: #F5A9D0; 
+	width: 300px;
+	}
+	30% {
+	background-color: pink; 
+	transform: rotate(50deg);
+		}
+
+}
+
+#ANIMATION {
+
+	width: 200px;
+	height: 500px; 
+	-webkit-animation-name: ana; 
+    -webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-direction: alternate;  
+	background-color: #7E81A9; 
+	transform: rotate(360deg)
+
+}
+
+#bella {
+
+width: 70px;
+	height: 70px; 
+	-webkit-animation-name: ana; 
+    -webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-direction: alternate;  
+	background-color: grey; 
+
+}
+
+
+#nitido {
+
+width: 70px;
+	height: 200px; 
+	-webkit-animation-name: ana; 
+    -webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-direction: alternate;  
+	background-color: red; 
+		40%{
+	background-color: #F5A9D0; 
+	width: 300px;
+	}
+	30% {
+	background-color: pink; 
+	transform: rotate(360deg)
+
+}
+
+#ANITA {
+
+width: 70px;
+	height: 70px; 
+	-webkit-animation-name: ana; 
+    -webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-direction: alternate;  
+	background-color: grey; 
+	margin-left: 10px; 
+	margin-top: 80px; 
+	transform: rotate(180deg);
+
+}
+
+#rojo { 
+
+width: 200px;
+	height: 500px; 
+	-webkit-animation-name: ana; 
+    -webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-direction: alternate;  
+	background-color: #7E81A9;
+
+
+ }
+
+p {
+
+font-size: 200px; 
+
+
+}
+
+
+
+
